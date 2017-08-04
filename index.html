@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Acrodoodle</title>
+  <meta name="Acrodoodle" content="Acrodoodle">
+  <meta name="" content="">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Kranky|Satisfy" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<header id="top">
+
+	<nav>
+		<ul>
+			<li class="home-link"><a href="index.html">Home</a></li>
+			<li class="dropdown"><a href="doodles.html" class="dropbtn">Doodles</a>
+				<div class="dropdown-content">
+					<a href="topdoodles.html" alt="Link to top doodles of all time">Top All-Time</a>
+					<a href="yesterdays.html" alt="Link to yesterday's doodles">Yesterday's Doodles</a>
+					<a href="lastweeks.html" alt="Link to last week's winners">Last Week's Winners</a>
+					<a href="doodles.html" alt="Link to all doodles">All Doodles</a>
+				</div>
+			</li>
+			<li class="about-link"><a href="about.html">About</a></li>
+			<li class="contact-link"><a href="contact.html">Contact</a></li>
+			<li class="drawing-app-nav"><a href="drawingapp.html" alt="Link to Drawing App">Drawing App</a></li>
+		</ul>
+	</nav>
+
+</header>
+
+<body>
+	<div class="container">
+		<div class="background">
+			<div class="title">
+				<img src="images/ACROdoodle.png" alt="Acrodoodle Logo" class="word">
+			</div>
+			<div class="acronym">
+				<h2>Today's Acronym: <big><span id="acro"></span></big></h2>
+				<!--<button type="button" onclick="makeid()">Generate Acronym</button>-->
+			</div>
+			<div class="prev-winner">
+				<h2>Yesterday's Winning Doodle: </h2>
+				<div class="placeholder">
+					<a href="http://placeholder.com" alt="Yesterday's Winning Doodle"><img src="http://via.placeholder.com/400x350"></a>
+				</div>
+			</div>
+			<div class="login">
+				<!--<div class="userImgContainer">
+					<img src="" alt="" class="avatar">
+				</div>-->
+				<h2>Login to Doodle!</h2>
+				<form action="" method="get" name="loginForm">
+					<i class="fa fa-user-o" aria-hidden="true" alt="user icon"></i>
+					<input name="username" id="username" type="text" placeholder="Username" />
+					<br/>
+					<i class="fa fa-unlock-alt" aria-hidden="true" alt="passord icon"></i>
+					<input name="pw" id="pw" type="password" placeholder="Password" />
+					<br/>
+					<button type="button" id="submitBtn" value="Submit">Login</button>
+				</form>
+			</div>
+		</div>
+		<footer id="main-footer">
+			<div class="social">
+				<a target="_blank" href="https://www.facebook.com/ACROdoodle-122544231163400/" alt="Link to Acrodoodle's Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<a target="_blank" href="https://www.instagram.com/" alt="Link to Acrodoodle's Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a target="_blank" href="https://twitter.com/" alt="Link to Acrodoodle's Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+			</div>
+			<a href="#top" alt="back to the top of the page">Back to Top</a>
+		</footer>
+	</div>
+  <script src="javascript/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Acrodoodle</title>
+  <meta name="Acrodoodle" content="Acrodoodle">
+  <meta name="" content="">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link href="https://fonts.googleapis.com/css?family=Handlee|Kranky|Satisfy" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<nav>
+	<ul>
+		<li class="home-link"><a href="index.html">Home</a></li>
+		<li class="about-link"><a href="about.html">About</a></li>
+		<li class="contact-link"><a href="contact.html">Contact</a></li>
+		<li class="dropdown"><a href="doodles.html" class="dropbtn">Doodles</a>
+			<div class="dropdown-content">
+				<a href="topdoodles.html">Top All-Time</a>
+				<a href="yesterdays.html">Yesterday's Doodles</a>
+				<a href="lastweeks.html">Last Week's Winners</a>
+				<a href="doodles.html">All Doodles</a>
+			</div>
+		</li>
+	</ul>
+</nav>
+
+<body>
+	<div class="background">
+		<div class="title">
+			<img src="images/ACROdoodle.png" alt="Acrodoodle Logo" class="word">
+		</div>
+		<div class="acronym">
+			<h2>Today's Acronym: <big><span id="acro"></span></big></h2>
+			<!--<button type="button" onclick="makeid()">Generate Acronym</button>-->
+		</div>
+
+		<div class="drawing-container">
+			<div class="whitespace">
+				<canvas id="canvasInAPerfectWorld" width="490" height="220"></canvas>
+				<div id="canvasDiv"></div>
+			</div>
+			<div class="toolspace">
+			</div>
+			<form>
+				<button type="button" id="submitBtn" value="Submit">Submit Doodle</button>
+			</form>
+		</div>
+		
+	</div>
+		<footer>
+			<div class="social">
+				<a target="_blank" href="https://www.facebook.com/ACROdoodle-122544231163400/" alt="Link to Acrodoodle's Facebook"><img class="fb" src="images/facebook.png"></a>
+				<a target="_blank" href="https://www.instagram.com/" alt="Link to Acrodoodle's Instagram"><img class="instagram" src="images/instagram.png"></a>
+				<a target="_blank" href="https://twitter.com/" alt="Link to Acrodoodle's Twitter"><img class="twitter" src="images/twitter.png"></a>
+			</div>
+		</footer>
+	</div>
+  <script src="javascript/script.js"></script>
+</body>
+</html>
